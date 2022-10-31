@@ -1,0 +1,131 @@
+  #slack{
+    display: none;
+  }
+  .share{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+  }
+  .share2{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+  }
+  #profile_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 88px;
+    height: 88px;
+    border-radius: 275px;
+  }
+  #btn_zuri{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    gap: 1px;
+    box-sizing: border-box;
+    border: 1px solid #D9D6FE;
+    border-radius: 15px;
+    background: #808080;
+    margin: 0px 30px;
+  }
+  #books{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    gap: 1px;
+    box-sizing: border-box;
+    border: 1px solid #D9D6FE;
+    border-radius: 15px;
+    background: #808080;
+    margin: 0px 30px;
+  }
+  #book_python{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    gap: 1px;
+    box-sizing: border-box;
+    border: 1px solid #D9D6FE;
+    border-radius: 15px;
+    background: #808080;
+    margin: 0px 30px;
+  }
+  #pitch{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    gap: 1px;
+    box-sizing: border-box;
+    border: 1px solid #D9D6FE;
+    border-radius: 15px;
+    background: #808080;
+    margin: 0px 30px;
+  }
+  #book_design{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    gap: 1px;
+    box-sizing: border-box;
+    border: 1px solid #D9D6FE;
+    border-radius: 15px;
+    background: #808080;
+    margin: 0px 30px;
+  }
+  .icons{
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .footer-icons{
+    margin: 2rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  @media screen and (max-width:550px){
+    .share{
+      position: absolute;
+      cursor: pointer;
+      right: 5%;
+      display: none;
+    }
+    .share2{
+      display: block;
+      position: absolute;
+      cursor: pointer;
+      right: 10%;
+    }
+    .footer-icons{
+      display: block;
+      position: relative;
+    }
+  }
+   
